@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h3>Color mixer</h3>
+    </header>
+
+   <div class="form">
+
+    <h2>Mix it till you make it</h2>
+
+    <form action="#">
+        <div>
+            <input type="text" id="color1" class="inputValue">
+            <p class="colorRgb result"></p>
+        </div>
+        <span>+</span>
+        <div>
+            <input type="text" id="color2" class="inputValue">
+            <p class="colorRgb result"></p>
+        </div>
+        <span id="ans">=</span>
+        <div>
+            <input type="text" id="finalColor">
+            <p id="finalColorRgb"></p>
+        </div>
+    </form>
+
+    <a href="javascript:location.reload()" id="reset">Reset</a>
+   </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
